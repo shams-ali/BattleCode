@@ -5,4 +5,4 @@ COPY package.json /usr/src/app/
 RUN npm install
 COPY . /usr/src/app
 EXPOSE 5000 80 443
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "setup"]
